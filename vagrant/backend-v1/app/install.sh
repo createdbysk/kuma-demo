@@ -14,7 +14,7 @@ cat << "EOF"
 EOF
 
 # Install the latest version of Node
-curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 apt-get install -y -q nodejs
 
 # Navigate to the backend directory
